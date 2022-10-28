@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DashBoard/Victor-Cristian</title>
+  <link rel="icon" type="image/png" href="./favicon3.png" />
+
+</head>
+
+<body>
+<header>
+  <nav>
+    <a class="img-fluid" >
+        <img src="./img1.png" alt="" height="160" width="320">
+        <h1>Indicadores Económicos</h1>
+      </a>
+  </nav>
+</header>
+<h3> Indicadores al día de hoy: </h3>
+<div class="container7" ><input style="color:#fff; background-color:#1d2630;font-style: italic; font-size: 16px;" id="fechahoy" type="date" readonly="readonly"></div>
+<div class="container8"><input style="color:#fff; background-color:#1d2630;font-style: italic; font-size: 15px;"  id="valorufhoy" value="" type="text"></div>
+<div class="container9"><input style="color:#fff; background-color:#1d2630;font-style: italic; font-size: 15px;"  id="dolarobshoy" value="" type="text"></div>
+<div class="container10"><input style="color:#fff; background-color:#1d2630;font-style: italic; font-size: 15px;"  id="eurohoy" value="" type="text"></div>
+<div class="container11"><input style="color:#fff; background-color:#1d2630;font-style: italic; font-size: 15px;"  id="utmhoy" value="" type="text"></div>
+
+<div class="container"><canvas id="valoruf"></canvas>
+    <div class="content">
+    </div>
+  </div>
+  <div class="container2"><canvas id="utm"></canvas>
+    <div class="content">
+    </div>
+  </div>
+  <div class="container3"><canvas id="ipc"></canvas>
+    <div class="content">
+    </div>
+  </div>
+  <div class="container4"><canvas id="bitcoin"></canvas>
+    <div class="content">
+    </div>
+  </div>
+  <div class="container5"><canvas id="euro"></canvas>
+    <div class="content">
+    </div>
+  </div>
+  <div class="container6"><canvas id="dolarobservado"></canvas>
+    <div class="content">
+    </div>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+  <script src="./main.js"></script>
+</body>
+
+</html>
